@@ -33,8 +33,11 @@ In `program.cs` (DbMigrator or Web), set `LogEventLevel` to `Information`. And a
                 .Enrich.With(new MyEnrcher())
                 .WriteTo.Async(c => c.Console(outputTemplate:
                     "[{Timestamp:HH:mm:ss} {Level:u3}] ({SourceContext}) {Message:lj}{NewLine}{Exception}"))
-                .CreateLogger();
-                
+                .CreateLogger();                
+
+```
+
+```
 internal class MyEnrcher : ILogEventEnricher
 {
         public void Enrich(LogEvent logEvent, ILogEventPropertyFactory propertyFactory)
@@ -46,3 +49,9 @@ internal class MyEnrcher : ILogEventEnricher
         }
  }
 ```
+
+some links
+
+* https://docs.microsoft.com/en-us/ef/core/logging-events-diagnostics/
+* https://docs.microsoft.com/en-us/archive/msdn-magazine/2018/october/data-points-logging-sql-and-change-tracking-events-in-ef-core
+ 
