@@ -1,0 +1,13 @@
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\OracleParameterDecoder.exe
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\OracleParameterDecoder.deps.json
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\OracleParameterDecoder.runtimeconfig.json
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\OracleParameterDecoder.runtimeconfig.dev.json
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\OracleParameterDecoder.dll
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\OracleParameterDecoder.pdb
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.csprojAssemblyReference.cache
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.AssemblyInfoInputs.cache
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.AssemblyInfo.cs
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.csproj.CoreCompileInputs.cache
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.dll
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.pdb
+C:\Users\alper\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\OracleParameterDecoder.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6jiglaOwOj4rftlmBgF+rrLwX5hfB3Ds1T4EqFiDIQUrqkMcHoE1kqKRdbEBPcLM5AG0bhG9Jdp3+A4bNAUrRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alper\\source\\repos\\ConsoleApp1\\ConsoleApp1\\OracleParameterDecoder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alper\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
