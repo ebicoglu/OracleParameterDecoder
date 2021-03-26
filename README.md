@@ -1,6 +1,6 @@
 # Oracle Raw SQL Parameter Decoder
 
-Decodes raw SQL of EF Core for Oracle ODP.Net provider
+Decodes raw SQL of EF Core for Oracle ODP.Net provider into a runnable SQL query.
 
 ---
 
