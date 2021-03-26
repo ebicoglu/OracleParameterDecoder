@@ -1,4 +1,4 @@
-# OracleParameterDecoder
+# Oracle Raw SQL Parameter Decoder
 
 Decodes raw SQL of EF Core for Oracle ODP.Net provider
 
@@ -11,12 +11,12 @@ In EntityFrameworkCore project enable sensitive data logging:
 ```
 Configure<AbpDbContextOptions>(options =>
 {
-	options.UseOracle();
-  
-	options.PreConfigure(x =>
-	{
-		x.DbContextOptions.EnableSensitiveDataLogging();
-	});
+    options.UseOracle();
+
+    options.PreConfigure(x =>
+    {
+        x.DbContextOptions.EnableSensitiveDataLogging();
+    });
 }
 ```
 
@@ -34,7 +34,6 @@ In `program.cs` (DbMigrator or Web), set `LogEventLevel` to `Information`. And a
                 .WriteTo.Async(c => c.Console(outputTemplate:
                     "[{Timestamp:HH:mm:ss} {Level:u3}] ({SourceContext}) {Message:lj}{NewLine}{Exception}"))
                 .CreateLogger();                
-
 ```
 
 ```
@@ -52,6 +51,5 @@ internal class MyEnrcher : ILogEventEnricher
 
 some links
 
-* https://docs.microsoft.com/en-us/ef/core/logging-events-diagnostics/
-* https://docs.microsoft.com/en-us/archive/msdn-magazine/2018/october/data-points-logging-sql-and-change-tracking-events-in-ef-core
- 
+*   https://docs.microsoft.com/en-us/ef/core/logging-events-diagnostics/
+*   https://docs.microsoft.com/en-us/archive/msdn-magazine/2018/october/data-points-logging-sql-and-change-tracking-events-in-ef-core
